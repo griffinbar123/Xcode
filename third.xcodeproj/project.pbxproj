@@ -10,8 +10,8 @@
 		8C1702FB292C74D500521F3B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1702FA292C74D500521F3B /* SplashScreenView.swift */; };
 		8CD435E7292C5603003160A9 /* thirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD435E6292C5603003160A9 /* thirdApp.swift */; };
 		8CD435E9292C5603003160A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD435E8292C5603003160A9 /* ContentView.swift */; };
-		8CD435EB292C5604003160A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD435EA292C5604003160A9 /* Assets.xcassets */; };
-		8CD435EE292C5604003160A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD435ED292C5604003160A9 /* Preview Assets.xcassets */; };
+		8CE22B07292C90EC00E1A345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD435EA292C5604003160A9 /* Assets.xcassets */; };
+		8CE22B08292C90F100E1A345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD435ED292C5604003160A9 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD435EE292C5604003160A9 /* Preview Assets.xcassets in Resources */,
-				8CD435EB292C5604003160A9 /* Assets.xcassets in Resources */,
+				8CE22B08292C90F100E1A345 /* Preview Assets.xcassets in Resources */,
+				8CE22B07292C90EC00E1A345 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,12 +279,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = none.third;
+				PRODUCT_BUNDLE_IDENTIFIER = idk2pp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,12 +309,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = none.third;
+				PRODUCT_BUNDLE_IDENTIFIER = idk2pp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

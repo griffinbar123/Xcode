@@ -44,7 +44,7 @@ func getRandom() -> Int{
 struct ContentView: View {
     @State var count = 1
     
-    @State var stateText = ""
+    @State var stateText = " "
 
     var body: some View {
         VStack {
@@ -65,36 +65,34 @@ struct ContentView: View {
     }
     
     func playSound(count:Int){
-        
-        var url = Bundle.main.url(forResource: "rolldice", withExtension: ".mp3")
-        let url2 = Bundle.main.url(forResource: "zfanfare", withExtension: ".mp3")
-        let url3 = Bundle.main.url(forResource: "failwah", withExtension: ".mp3")
+        var filePath: String?
         
         if(count==1){
             self.stateText="Critical Miss!"
-            url = url3
+            filePath = Bundle.main.path(forResource: "failwah", ofType: "mp3")
+
         } else if (count==20){
             self.stateText="Critical Miss!"
-            url = url2
+            filePath = Bundle.main.path(forResource: "zfanfare", ofType: "mp3")
         } else{
-            self.stateText=""
+            self.stateText=" "
+            filePath = Bundle.main.path(forResource: "rolldice", ofType: "mp3")
         }
-        guard url != nil else {
+        guard (filePath != nil) else {
+//            print(Bundle.main.path(forResource:"d1", ofType: ))
             return
         }
+        let url = URL(fileURLWithPath: filePath!)
         
-        do {
-            player = try AVAudioPlayer(contentsOf: url!)
-            player?.play()
-        } catch {
-            print(("error"))
-        }
+        var soundID:SystemSoundID = 0
+        AudioServicesCreateSystemSoundID(url as CFURL, &soundID)
+        AudioServicesPlaySystemSound(soundID)
     }
-        func rollDice(){
-            count=getRandom()
+    func rollDice(){
+        count=getRandom()
             
-            playSound(count:count)
-        }
+        playSound(count:count)
+    }
     
 }
 
