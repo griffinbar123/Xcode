@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		8C1702FB292C74D500521F3B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1702FA292C74D500521F3B /* SplashScreenView.swift */; };
+		8C21101D292C9613000B6706 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C21101C292C9613000B6706 /* zfanfare.mp3 */; };
+		8C21101F292C9619000B6706 /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C21101E292C9619000B6706 /* rolldice.mp3 */; };
+		8C211021292C9620000B6706 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8C211020292C9620000B6706 /* failwah.mp3 */; };
 		8CD435E7292C5603003160A9 /* thirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD435E6292C5603003160A9 /* thirdApp.swift */; };
 		8CD435E9292C5603003160A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD435E8292C5603003160A9 /* ContentView.swift */; };
 		8CE22B07292C90EC00E1A345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD435EA292C5604003160A9 /* Assets.xcassets */; };
 		8CE22B08292C90F100E1A345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD435ED292C5604003160A9 /* Preview Assets.xcassets */; };
-		8CE22B0C292C94D200E1A345 /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CE22B0B292C94D200E1A345 /* rolldice.mp3 */; };
-		8CE22B0E292C94DC00E1A345 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CE22B0D292C94DC00E1A345 /* failwah.mp3 */; };
-		8CE22B10292C94E200E1A345 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CE22B0F292C94E200E1A345 /* zfanfare.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C1702FA292C74D500521F3B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		8C21101C292C9613000B6706 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zfanfare.mp3; sourceTree = "<group>"; };
+		8C21101E292C9619000B6706 /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rolldice.mp3; sourceTree = "<group>"; };
+		8C211020292C9620000B6706 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
 		8CD435E3292C5603003160A9 /* third.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = third.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD435E6292C5603003160A9 /* thirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdApp.swift; sourceTree = "<group>"; };
 		8CD435E8292C5603003160A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CD435EA292C5604003160A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CD435ED292C5604003160A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8CE22B0B292C94D200E1A345 /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rolldice.mp3; path = ../../../../Downloads/dddddddddddddddddddd/rolldice.mp3; sourceTree = "<group>"; };
-		8CE22B0D292C94DC00E1A345 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = failwah.mp3; path = ../../../../Downloads/dddddddddddddddddddd/failwah.mp3; sourceTree = "<group>"; };
-		8CE22B0F292C94E200E1A345 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zfanfare.mp3; path = ../../../../Downloads/dddddddddddddddddddd/zfanfare.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 				8CD435E8292C5603003160A9 /* ContentView.swift */,
 				8C1702FA292C74D500521F3B /* SplashScreenView.swift */,
 				8CD435EA292C5604003160A9 /* Assets.xcassets */,
-				8CE22B0B292C94D200E1A345 /* rolldice.mp3 */,
-				8CE22B0D292C94DC00E1A345 /* failwah.mp3 */,
-				8CE22B0F292C94E200E1A345 /* zfanfare.mp3 */,
+				8C211020292C9620000B6706 /* failwah.mp3 */,
+				8C21101E292C9619000B6706 /* rolldice.mp3 */,
+				8C21101C292C9613000B6706 /* zfanfare.mp3 */,
 				8CD435EC292C5604003160A9 /* Preview Content */,
 			);
 			path = third;
@@ -137,9 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE22B0C292C94D200E1A345 /* rolldice.mp3 in Resources */,
-				8CE22B10292C94E200E1A345 /* zfanfare.mp3 in Resources */,
-				8CE22B0E292C94DC00E1A345 /* failwah.mp3 in Resources */,
+				8C21101F292C9619000B6706 /* rolldice.mp3 in Resources */,
+				8C211021292C9620000B6706 /* failwah.mp3 in Resources */,
+				8C21101D292C9613000B6706 /* zfanfare.mp3 in Resources */,
 				8CE22B08292C90F100E1A345 /* Preview Assets.xcassets in Resources */,
 				8CE22B07292C90EC00E1A345 /* Assets.xcassets in Resources */,
 			);
