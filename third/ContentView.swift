@@ -67,8 +67,8 @@ struct ContentView: View {
     func playSound(count:Int){
         
         var url = Bundle.main.url(forResource: "rolldice", withExtension: ".mp3")
-        var url2 = Bundle.main.url(forResource: "zfanfare", withExtension: ".mp3")
-        var url3 = Bundle.main.url(forResource: "failwah", withExtension: ".mp3")
+        let url2 = Bundle.main.url(forResource: "zfanfare", withExtension: ".mp3")
+        let url3 = Bundle.main.url(forResource: "failwah", withExtension: ".mp3")
         
         if(count==1){
             self.stateText="Critical Miss!"
