@@ -37,8 +37,12 @@ extension View {
 
 var player:AVAudioPlayer!
 
-func getRandom() -> Int{
-    return Int.random(in: 1..<21)
+func getRandom(count:Int) -> Int{
+    var x = Int.random(in: 1..<21)
+    while(x==count){
+        x = Int.random(in: 1..<21)
+    }
+    return x
 }
 
 struct ContentView: View {
@@ -79,7 +83,7 @@ struct ContentView: View {
             filePath = Bundle.main.path(forResource: "rolldice", ofType: "mp3")
         }
         guard (filePath != nil) else {
-//            print(Bundle.main.path(forResource:"d1", ofType: ))
+            print("not working")
             return
         }
         let url = URL(fileURLWithPath: filePath!)
@@ -89,7 +93,7 @@ struct ContentView: View {
         AudioServicesPlaySystemSound(soundID)
     }
     func rollDice(){
-        count=getRandom()
+        count=getRandom(count:count)
             
         playSound(count:count)
     }
